@@ -40,7 +40,7 @@ dev = int(input('Введете произведение чисел: '))
 count = 0
 
 for i in range(summa):
-    for j in range(summa):
+    for j in range(dev):
         if i + j == summa and i * j == dev:
             count += 1
             print(i, j)
