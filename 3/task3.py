@@ -31,7 +31,7 @@ for letter in word:
     total_cost += dict_cost[letter]
 print(f'Стоимость слова: {total_cost}')
 
-
+# Семинар 5 разбор этого ДЗ
 
 
 

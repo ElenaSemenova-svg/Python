@@ -10,6 +10,25 @@
 #     3
 #     -> 1
 
+#Мой вариант
+# import random
+# from random import randint
+
+# number = int(input('Введите число: '))
+# list_numbers = []
+
+# for _ in range(10):
+#     list_numbers.append(random.randint(1, 10))
+# print(list_numbers)
+
+# count = 0
+# for i in range(len(list_numbers) - 1):
+#     if  number == list_numbers[i]:
+#         count +=1
+# print(f'Число {number} встречается {count} раз')
+
+# Вариант преподавателя
+
 import random
 from random import randint
 
@@ -20,8 +39,4 @@ for _ in range(10):
     list_numbers.append(random.randint(1, 10))
 print(list_numbers)
 
-count = 0
-for i in range(len(list_numbers) - 1):
-    if  number == list_numbers[i]:
-        count +=1
-print(f'Число {number} встречается {count} раз')
+print(f'Число {number} встречается {list_numbers.count(number)} раз')
